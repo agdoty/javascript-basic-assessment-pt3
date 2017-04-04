@@ -1,8 +1,3 @@
-describe("Object looper", function(){
-  it("should equal 'no m&m's for you'", function(){
-    expect(candies.mAndm).toEqual("no m&m's for you");
-  });
-});
 describe("getName function", function(){
   it("Should exist", function(){
     expect(getName).toEqual(jasmine.any(Function));
